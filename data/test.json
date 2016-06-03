@@ -1,0 +1,32 @@
+{
+    "name": "test",
+    "cities": {
+        "foo": "Footopia",
+        "bar": "Bartropolis",
+        "baz": "Bazadia"
+    },
+    "segments": [
+        {
+            "cities": ["foo", "baz"],
+            "length": 1,
+            "color": ""
+        },
+        {
+            "cities": ["foo", "bar"],
+            "length": 5,
+            "color": "red"
+        },
+        {
+            "cities": ["bar", "baz"],
+            "length": 2,
+            "color": "green"
+        },
+        {
+            "cities": ["bar", "baz"],
+            "length": 2,
+            "color": "blue"
+        }
+    ],
+    "destinations": [],
+    "length_scale": { "1": 1, "2": 2, "5": 10 }
+}

@@ -1,0 +1,668 @@
+{
+    "name": "USA",
+    "cities": {
+        "van": "Vancouver",
+        "sea": "Seattle",
+        "por": "Portland",
+        "sfo": "San Francisco",
+        "lax": "Los Angeles",
+        "cal": "Calgary",
+        "win": "Winnipeg",
+        "hel": "Helena",
+        "slc": "Salt Lake City",
+        "lav": "Las Vegas",
+        "pnx": "Phoenix",
+        "den": "Denver",
+        "sfe": "Santa Fe",
+        "elp": "El Paso",
+        "dul": "Duluth",
+        "omh": "Omaha",
+        "ksc": "Kansas City",
+        "okc": "Oklahoma City",
+        "dal": "Dallas",
+        "hst": "Houston",
+        "ssm": "Sault St Marie",
+        "mon": "Montreal",
+        "tor": "Toronto",
+        "chi": "Chicago",
+        "stl": "Saint Louis",
+        "ltr": "Little Rock",
+        "nor": "New Orleans",
+        "bos": "Boston",
+        "nyc": "New York",
+        "pit": "Pittsburgh",
+        "wsh": "Washington",
+        "nsh": "Nashville",
+        "ral": "Raleigh",
+        "atl": "Atlanta",
+        "chr": "Charleston",
+        "mim": "Miami"
+    },
+    "routes": [
+        {
+            "cities": ["van", "cal"],
+            "length": 3,
+            "color": ""
+        },
+        {
+            "cities": ["van", "sea"],
+            "length": 1,
+            "color": ""
+        },
+        {
+            "cities": ["van", "sea"],
+            "length": 1,
+            "color": ""
+        },
+        {
+            "cities": ["sea", "cal"],
+            "length": 4,
+            "color": ""
+        },
+        {
+            "cities": ["sea", "hel"],
+            "length": 6,
+            "color": "yellow"
+        },
+        {
+            "cities": ["sea", "por"],
+            "length": 1,
+            "color": ""
+        },
+        {
+            "cities": ["por", "sea"],
+            "length": 1,
+            "color": ""
+        },
+        {
+            "cities": ["por", "slc"],
+            "length": 6,
+            "color": "blue"
+        },
+        {
+            "cities": ["por", "sfo"],
+            "length": 5,
+            "color": "green"
+        },
+        {
+            "cities": ["sfo", "por"],
+            "length": 5,
+            "color": "pink"
+        },
+        {
+            "cities": ["sfo", "slc"],
+            "length": 5,
+            "color": "orange"
+        },
+        {
+            "cities": ["sfo", "slc"],
+            "length": 5,
+            "color": "white"
+        },
+        {
+            "cities": ["sfo", "lax"],
+            "length": 3,
+            "color": "yellow"
+        },
+        {
+            "cities": ["lax", "sfo"],
+            "length": 3,
+            "color": "pink"
+        },
+        {
+            "cities": ["lax", "lav"],
+            "length": 2,
+            "color": ""
+        },
+        {
+            "cities": ["lax", "pnx"],
+            "length": 3,
+            "color": ""
+        },
+        {
+            "cities": ["lax", "elp"],
+            "length": 6,
+            "color": "black"
+        },
+        {
+            "cities": ["lav", "slc"],
+            "length": 3,
+            "color": "orange"
+        },
+        {
+            "cities": ["slc", "hel"],
+            "length": 3,
+            "color": "pink"
+        },
+        {
+            "cities": ["slc", "den"],
+            "length": 3,
+            "color": "red"
+        },
+        {
+            "cities": ["slc", "den"],
+            "length": 3,
+            "color": "yellow"
+        },
+        {
+            "cities": ["hel", "den"],
+            "length": 4,
+            "color": "green"
+        },
+        {
+            "cities": ["hel", "omh"],
+            "length": 5,
+            "color": "red"
+        },
+        {
+            "cities": ["hel", "dul"],
+            "length": 6,
+            "color": "orange"
+        },
+        {
+            "cities": ["hel", "win"],
+            "length": 4,
+            "color": "blue"
+        },
+        {
+            "cities": ["cal", "win"],
+            "length": 6,
+            "color": "white"
+        },
+        {
+            "cities": ["win", "dul"],
+            "length": 4,
+            "color": "black"
+        },
+        {
+            "cities": ["win", "ssm"],
+            "length": 6,
+            "color": ""
+        },
+        {
+            "cities": ["dul", "ssm"],
+            "length": 3,
+            "color": ""
+        },
+        {
+            "cities": ["dul", "tor"],
+            "length": 6,
+            "color": "pink"
+        },
+        {
+            "cities": ["dul", "chi"],
+            "length": 3,
+            "color": "red"
+        },
+        {
+            "cities": ["dul", "omh"],
+            "length": 2,
+            "color": ""
+        },
+        {
+            "cities": ["omh", "dul"],
+            "length": 2,
+            "color": ""
+        },
+        {
+            "cities": ["omh", "chi"],
+            "length": 4,
+            "color": "blue"
+        },
+        {
+            "cities": ["omh", "ksc"],
+            "length": 1,
+            "color": ""
+        },
+        {
+            "cities": ["ksc", "omh"],
+            "length": 1,
+            "color": ""
+        },
+        {
+            "cities": ["omh", "den"],
+            "length": 4,
+            "color": "pink"
+        },
+        {
+            "cities": ["ksc", "stl"],
+            "length": 2,
+            "color": "pink"
+        },
+        {
+            "cities": ["ksc", "stl"],
+            "length": 2,
+            "color": "blue"
+        },
+        {
+            "cities": ["ksc", "okc"],
+            "length": 2,
+            "color": ""
+        },
+        {
+            "cities": ["okc", "ksc"],
+            "length": 2,
+            "color": ""
+        },
+        {
+            "cities": ["ksc", "den"],
+            "length": 4,
+            "color": "black"
+        },
+        {
+            "cities": ["den", "ksc"],
+            "length": 4,
+            "color": "orange"
+        },
+        {
+            "cities": ["den", "okc"],
+            "length": 4,
+            "color": "red"
+        },
+        {
+            "cities": ["den", "sfe"],
+            "length": 2,
+            "color": ""
+        },
+        {
+            "cities": ["den", "pnx"],
+            "length": 5,
+            "color": "white"
+        },
+        {
+            "cities": ["pnx", "sfe"],
+            "length": 3,
+            "color": ""
+        },
+        {
+            "cities": ["pnx", "elp"],
+            "length": 3,
+            "color": ""
+        },
+        {
+            "cities": ["elp", "hst"],
+            "length": 6,
+            "color": "green"
+        },
+        {
+            "cities": ["elp", "dal"],
+            "length": 4,
+            "color": "red"
+        },
+        {
+            "cities": ["elp", "okc"],
+            "length": 5,
+            "color": "yellow"
+        },
+        {
+            "cities": ["elp", "sfe"],
+            "length": 2,
+            "color": ""
+        },
+        {
+            "cities": ["sfe", "okc"],
+            "length": 3,
+            "color": "blue"
+        },
+        {
+            "cities": ["okc", "ltr"],
+            "length": 2,
+            "color": ""
+        },
+        {
+            "cities": ["okc", "dal"],
+            "length": 2,
+            "color": ""
+        },
+        {
+            "cities": ["okc", "dal"],
+            "length": 2,
+            "color": ""
+        },
+        {
+            "cities": ["dal", "ltr"],
+            "length": 2,
+            "color": ""
+        },
+        {
+            "cities": ["dal", "hst"],
+            "length": 1,
+            "color": ""
+        },
+        {
+            "cities": ["hst", "dal"],
+            "length": 1,
+            "color": ""
+        },
+        {
+            "cities": ["hst", "nor"],
+            "length": 2,
+            "color": ""
+        },
+        {
+            "cities": ["nor", "mim"],
+            "length": 6,
+            "color": "red"
+        },
+        {
+            "cities": ["nor", "atl"],
+            "length": 4,
+            "color": "yellow"
+        },
+        {
+            "cities": ["atl", "nor"],
+            "length": 4,
+            "color": "orange"
+        },
+        {
+            "cities": ["nor", "ltr"],
+            "length": 3,
+            "color": "green"
+        },
+        {
+            "cities": ["ltr", "nsh"],
+            "length": 3,
+            "color": "white"
+        },
+        {
+            "cities": ["ltr", "stl"],
+            "length": 2,
+            "color": ""
+        },
+        {
+            "cities": ["stl", "nsh"],
+            "length": 2,
+            "color": ""
+        },
+        {
+            "cities": ["stl", "pit"],
+            "length": 5,
+            "color": "green"
+        },
+        {
+            "cities": ["stl", "chi"],
+            "length": 2,
+            "color": "white"
+        },
+        {
+            "cities": ["chi", "stl"],
+            "length": 2,
+            "color": "green"
+        },
+        {
+            "cities": ["chi", "pit"],
+            "length": 3,
+            "color": "orange"
+        },
+        {
+            "cities": ["pit", "chi"],
+            "length": 3,
+            "color": "black"
+        },
+        {
+            "cities": ["chi", "tor"],
+            "length": 4,
+            "color": "white"
+        },
+        {
+            "cities": ["tor", "ssm"],
+            "length": 2,
+            "color": ""
+        },
+        {
+            "cities": ["tor", "pit"],
+            "length": 2,
+            "color": ""
+        },
+        {
+            "cities": ["tor", "mon"],
+            "length": 3,
+            "color": ""
+        },
+        {
+            "cities": ["mon", "ssm"],
+            "length": 5,
+            "color": "black"
+        },
+        {
+            "cities": ["mon", "nyc"],
+            "length": 3,
+            "color": "blue"
+        },
+        {
+            "cities": ["mon", "bos"],
+            "length": 2,
+            "color": ""
+        },
+        {
+            "cities": ["bos", "mon"],
+            "length": 2,
+            "color": ""
+        },
+        {
+            "cities": ["bos", "nyc"],
+            "length": 2,
+            "color": "yellow"
+        },
+        {
+            "cities": ["nyc", "bos"],
+            "length": 2,
+            "color": "red"
+        },
+        {
+            "cities": ["nyc", "wsh"],
+            "length": 2,
+            "color": "black"
+        },
+        {
+            "cities": ["wsh", "nyc"],
+            "length": 2,
+            "color": "orange"
+        },
+        {
+            "cities": ["nyc", "pit"],
+            "length": 2,
+            "color": "green"
+        },
+        {
+            "cities": ["pit", "nyc"],
+            "length": 2,
+            "color": "white"
+        },
+        {
+            "cities": ["pit", "wsh"],
+            "length": 2,
+            "color": ""
+        },
+        {
+            "cities": ["pit", "ral"],
+            "length": 2,
+            "color": ""
+        },
+        {
+            "cities": ["pit", "nsh"],
+            "length": 4,
+            "color": "yellow"
+        },
+        {
+            "cities": ["nsh", "ral"],
+            "length": 3,
+            "color": "black"
+        },
+        {
+            "cities": ["nsh", "atl"],
+            "length": 1,
+            "color": ""
+        },
+        {
+            "cities": ["atl", "mim"],
+            "length": 5,
+            "color": "blue"
+        },
+        {
+            "cities": ["atl", "chr"],
+            "length": 2,
+            "color": ""
+        },
+        {
+            "cities": ["atl", "ral"],
+            "length": 2,
+            "color": ""
+        },
+        {
+            "cities": ["atl", "ral"],
+            "length": 2,
+            "color": ""
+        },
+        {
+            "cities": ["ral", "wsh"],
+            "length": 2,
+            "color": ""
+        },
+        {
+            "cities": ["ral", "wsh"],
+            "length": 2,
+            "color": ""
+        },
+        {
+            "cities": ["ral", "chr"],
+            "length": 2,
+            "color": ""
+        },
+        {
+            "cities": ["chr", "mim"],
+            "length": 4,
+            "color": "pink"
+        }
+    ],
+    "tickets": [
+        {
+            "cities": ["sea", "nyc"],
+            "points": 22
+        },
+        {
+            "cities": ["lax", "nyc"],
+            "points": 21
+        },
+        {
+            "cities": ["lax", "mim"],
+            "points": 20
+        },
+        {
+            "cities": ["van", "mon"],
+            "points": 20
+        },
+        {
+            "cities": ["sfo", "atl"],
+            "points": 17
+        },
+        {
+            "cities": ["por", "nsh"],
+            "points": 17
+        },
+        {
+            "cities": ["lax", "chi"],
+            "points": 16
+        },
+        {
+            "cities": ["van", "sfe"],
+            "points": 13
+        },
+        {
+            "cities": ["mon", "nor"],
+            "points": 13
+        },
+        {
+            "cities": ["cal", "pnx"],
+            "points": 13
+        },
+        {
+            "cities": ["bos", "mim"],
+            "points": 12
+        },
+        {
+            "cities": ["win", "hst"],
+            "points": 12
+        },
+        {
+            "cities": ["win", "ltr"],
+            "points": 11
+        },
+        {
+            "cities": ["por", "pnx"],
+            "points": 11
+        },
+        {
+            "cities": ["dal", "nyc"],
+            "points": 11
+        },
+        {
+            "cities": ["den", "pit"],
+            "points": 11
+        },
+        {
+            "cities": ["dul", "elp"],
+            "points": 10
+        },
+        {
+            "cities": ["tor", "mim"],
+            "points": 10
+        },
+        {
+            "cities": ["ssm", "okc"],
+            "points": 9
+        },
+        {
+            "cities": ["mon", "atl"],
+            "points": 9
+        },
+        {
+            "cities": ["sea", "lax"],
+            "points": 9
+        },
+        {
+            "cities": ["chi", "sfe"],
+            "points": 9
+        },
+        {
+            "cities": ["dul", "hst"],
+            "points": 8
+        },
+        {
+            "cities": ["ssm", "nsh"],
+            "points": 8
+        },
+        {
+            "cities": ["hel", "lax"],
+            "points": 8
+        },
+        {
+            "cities": ["cal", "slc"],
+            "points": 7
+        },
+        {
+            "cities": ["chi", "nor"],
+            "points": 7
+        },
+        {
+            "cities": ["nyc", "atl"],
+            "points": 6
+        },
+        {
+            "cities": ["ksc", "hst"],
+            "points": 5
+        },
+        {
+            "cities": ["den", "elp"],
+            "points": 4
+        }
+    ],
+    "length_scale": {
+        "1": 1,
+        "2": 2,
+        "3": 4,
+        "4": 7,
+        "5": 10,
+        "6": 15
+    }
+}
